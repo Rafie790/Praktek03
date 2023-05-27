@@ -23,6 +23,15 @@ public class SepedaAksi {
         System.out.println(s.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
+        
+        SepedaMotor sm = new SepedaMotor();
+        sm.setMerk("Wooleng");
+        sm.setWarna("Merah");
+        sm.setHarga(10000);
+        sm.setJenisMotor("Bensin");
+        sm.cetakInfo();
+        System.out.println("jenis :"+sm.getJenisMotor());
+        sm.throttle();
     }
     
 }
