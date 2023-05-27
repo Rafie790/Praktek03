@@ -9,5 +9,10 @@ package praktek03;
  * @author Hanzo
  */
 public class SepedaMotor extends Sepeda{
+    private String jenisMotor;
+    
+    void throttle(){
+        System.out.println("NGEENG......");
+    }
     
 }
